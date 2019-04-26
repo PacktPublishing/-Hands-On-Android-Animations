@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_close">
+
+    <target
+        android:name="cross"
+        android:animation="@animator/close_to_check" />
+
+    <target
+        android:name="groupTickCross"
+        android:animation="@animator/rotate_close_to_check" />
+
+</animated-vector>
