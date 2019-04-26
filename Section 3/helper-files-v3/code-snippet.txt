@@ -1,0 +1,16 @@
+// Root Animator Set
+        val rootSet = AnimatorSet()
+
+        // Flip Animation
+        val flip = ObjectAnimator.ofFloat(testImage, "rotationX", 0.0f, 360.0f)
+        flip.duration = 500
+
+        // Child Animator Set
+        val childSet = AnimatorSet()
+
+        // Scale Animations
+        val scaleX = ObjectAnimator.ofFloat(testImage, "scaleX", 1.0f, 1.5f)
+        scaleX.duration = 500
+
+        val scaleY = ObjectAnimator.ofFloat(testImage, "scaleY", 1.0f, 1.5f)
+        scaleY.duration = 500 

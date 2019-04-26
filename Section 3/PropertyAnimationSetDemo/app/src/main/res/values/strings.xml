@@ -1,0 +1,16 @@
+<resources>
+	<string name="app_name">AnimationsDemo</string>
+	<string name="rotateXML">Rotate X</string>
+	<string name="scaleXML">Scale X</string>
+	<string name="translateXML">Translate X</string>
+	<string name="fadeXML">Fade X</string>
+	<string name="rotateCode">Rotate C</string>
+	<string name="scaleCode">Scale C</string>
+	<string name="translateCode">Translate C</string>
+	<string name="fadeCode">Fade C</string>
+	<string name="setXML">Set XML</string>
+	<string name="setCode">Set Code</string>
+    <string name="viewPropertyAnimator">View Property Animator</string>
+    <string name="propertyValueHolder">Property value Holder</string>
+
+</resources>
