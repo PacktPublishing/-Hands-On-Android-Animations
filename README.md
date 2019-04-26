@@ -16,21 +16,21 @@ This course will show you how to implement animations to make your UX more dynam
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-Able to use Android Studio
-Know the basics of Android application development
-Know the basics and syntax of the Kotlin programming language
+<ul><li>Able to use Android Studio</li>
+<li>Know the basics of Android application development</li>
+<li>Know the basics and syntax of the Kotlin programming language</li></ul>
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-Recommended Hardware Requirements
-OS: Windows 8.1 64-bit or Windows 10 64-bit, MacOS or Ubuntu
-Processor: Intel Core i5 or equivalent
-Memory: 8 GB RAM
-Storage: 15 GB available space
+<ul>Recommended Hardware Requirements
+<li>OS: Windows 8.1 64-bit or Windows 10 64-bit, MacOS or Ubuntu</li>
+<li>Processor: Intel Core i5 or equivalent</li>
+<li>Memory: 8 GB RAM</li>
+<li>Storage: 15 GB available space</li><ul>
 
-Software Requirements
-Java JDK 8
-Android Studio 3.0 or above
+<ul>Software Requirements
+<li>Java JDK 8</li>
+<li>Android Studio 3.0 or above</li></ul>
 
 ## Related Products
 * [Hands-On Android Application Components: Styles and Themes [Video]](https://www.packtpub.com/application-development/hands-android-application-components-styles-and-themes-video?utm_source=github&utm_medium=repository&utm_campaign=9781789808711)
