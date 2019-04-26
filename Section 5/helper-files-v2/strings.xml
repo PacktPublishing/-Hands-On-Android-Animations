@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TransitionXML</string>
+    <string name="rotate">Rotate</string>
+    <string name="scale">Scale</string>
+    <string name="translate">Translate</string>
+    <string name="fade">Fade</string>
+    
+    <string name="some_text">Taj Mahal is widely considered as the most beautiful building in the world. It is located in the historical city of Agra. It was built by the Mughal Emperor Shah Jahan as a memorial for his third wife, Mumtaz Mahal. Constructed entirely out of white marble in the 17th century, it is among the finest edifices of Mughal architecture.</string>
+</resources>

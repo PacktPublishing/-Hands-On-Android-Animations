@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:id="@+id/img_row"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="7dp"
+                android:contentDescription="thumbnail"
+                card_view:srcCompat="@drawable/thumb_1_0"/>
+
+        <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="7dp"
+                android:layout_weight="1"
+                android:text="Title"
+                android:textColor="#616161"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/img_row_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:contentDescription="delete image"
+                    card_view:srcCompat="@drawable/ic_delete"
+                    android:tint="#9E9E9E"/>
+
+            <ImageView
+                    android:id="@+id/img_row_add"
+                    android:layout_weight="1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="7dp"
+                    android:contentDescription="add image"
+                    card_view:srcCompat="@drawable/ic_make_copy"
+                    android:tint="#9E9E9E"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

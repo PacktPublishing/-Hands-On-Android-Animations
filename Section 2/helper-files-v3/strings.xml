@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">AnimationsDemo</string>
+	<string name="rotate">Rotate</string>
+	<string name="scale">Scale</string>
+	<string name="translate">Translate</string>
+	<string name="fade">Fade</string>
+	
+</resources>

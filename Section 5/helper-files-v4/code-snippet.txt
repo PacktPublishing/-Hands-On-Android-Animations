@@ -1,0 +1,12 @@
+val cbTransition = ChangeBounds()
+cbTransition.duration = 500
+cbTransition.interpolator = LinearInterpolator()
+
+val fadeInTransition = Fade(Fade.IN)
+fadeInTransition.duration = 250
+fadeInTransition.startDelay = 400
+fadeInTransition.addTarget(R.id.txvTitle)
+
+val fadeOutTransition = Fade(Fade.OUT)
+fadeOutTransition.duration = 50
+fadeOutTransition.addTarget(R.id.txvTitle)
